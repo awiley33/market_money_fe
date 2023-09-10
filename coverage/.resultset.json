@@ -228,6 +228,55 @@
           null
         ]
       },
+      "/Users/annawiley/turing_work/3mod/challenges/market_money_fe/app/facades/markets_facade.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          846,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/annawiley/turing_work/3mod/challenges/market_money_fe/spec/poros/market_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
       "/Users/annawiley/turing_work/3mod/challenges/market_money_fe/app/poros/market.rb": {
         "lines": [
           1,
@@ -242,15 +291,15 @@
           null,
           null,
           1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
+          847,
+          847,
+          847,
+          847,
+          847,
+          847,
+          847,
+          847,
+          847,
           null,
           null
         ]
@@ -301,21 +350,21 @@
         "lines": [
           1,
           1,
-          1,
+          2,
           null,
           null,
           1,
-          1,
-          1,
+          2,
+          2,
           null,
           null,
           1,
-          1,
+          2,
           null,
           null
         ]
       }
     },
-    "timestamp": 1694386822
+    "timestamp": 1694387220
   }
 }
