@@ -22,12 +22,14 @@ class Market
     @lat = data[:attributes][:lat]
     @lon = data[:attributes][:lon]
     @vendor_count = data[:attributes][:vendor_count]
-    @vendors = data[:relationships][:vendors]
+    @vendors = data[:relationships][:vendors][:data]
   end
 
   def vendors_at_market
-    @vendors.map do |key, value|
-      value[0][:id]
+    @vendors.map do |details|
+      details[:id]
     end
   end
+
+
 end

@@ -14,9 +14,18 @@ RSpec.describe "Markets Show Page", :vcr do
   it "displays all vendors included at the market" do
     expect(page).to have_content("The Charcuterie Corner")
   end
+  
+  it "displays all vendors when there are more than one" do
+    visit market_path("322482")
+
+    expect(page).to have_content("Saddle Up Smoothies")
+    expect(page).to have_content("Bookish Bazaar")
+    expect(page).to have_content("The Freshly Squeezed Company")
+    expect(page).to have_content("The Sourdough Queen")
+    expect(page).to have_content("Colorful Comforts")
+  end
 
   it "links to vendor show page from vendor name" do
-    save_and_open_page
     click_link "The Charcuterie Corner"
     
     expect(current_path).to eq(vendor_path("55823"))
@@ -29,3 +38,5 @@ end
 # I see that market's name and readable address
 # And I also see a list of all the Vendors that are at that market
 # Each vendor name is a link to that vendor's show page
+
+# 322482

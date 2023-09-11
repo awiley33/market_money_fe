@@ -3,7 +3,6 @@ require 'rails_helper'
 RSpec.describe "Markets Index Page", :vcr do
   before do
     visit markets_path
-    save_and_open_page
   end
   it "displays all markets with their name, city and state" do
     within ".market-322458" do

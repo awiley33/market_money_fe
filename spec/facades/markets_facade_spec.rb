@@ -41,4 +41,14 @@ RSpec.describe MarketsFacade, :vcr do
     expect(vendor.phone).to be_a(String)
     expect(vendor.credit_accepted).to be_in([true, false])
   end
+
+  it "returns markets at a vendor" do
+    ids = ["55340", "56282", "54988", "54876", "56162"]
+
+    vendors = MarketsFacade.new.vendors(ids)
+
+    vendors.each do |vendor|
+      expect(vendor).to be_a Vendor
+    end
+  end
 end
