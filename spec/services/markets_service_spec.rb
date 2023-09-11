@@ -1,6 +1,6 @@
 require "rails_helper"
 
-RSpec.describe MarketsService do
+RSpec.describe MarketsService, :vcr do
   it "connects to the markets API"  do
     search = MarketsService.new.get_all_markets
     expect(search).to be_a Hash

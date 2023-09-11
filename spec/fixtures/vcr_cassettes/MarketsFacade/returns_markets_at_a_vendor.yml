@@ -1,0 +1,270 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://localhost:3000/api/v0/vendors/55340
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.10
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - '0'
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept
+      Etag:
+      - W/"4668ac979417e863e694145168e2007a"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 7dd753b3-ceb2-41a4-b733-d3a07be9be04
+      X-Runtime:
+      - '0.040901'
+      Server-Timing:
+      - start_processing.action_controller;dur=0.53, sql.active_record;dur=12.67,
+        instantiation.active_record;dur=0.11, process_action.action_controller;dur=28.95
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"55340","type":"vendor","attributes":{"name":"Saddle
+        Up Smoothies","description":"smoothie and juice vendor","contact_name":"Trang
+        Kling II","contact_phone":"1-866-326-0903","credit_accepted":false}}}'
+  recorded_at: Mon, 11 Sep 2023 14:30:36 GMT
+- request:
+    method: get
+    uri: http://localhost:3000/api/v0/vendors/56282
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.10
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - '0'
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept
+      Etag:
+      - W/"3c051ad0c2b31e60cb6647ccdb725034"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 8833bbf0-c22a-49f0-9639-4d29b6068ce6
+      X-Runtime:
+      - '0.022256'
+      Server-Timing:
+      - start_processing.action_controller;dur=0.06, sql.active_record;dur=0.45, instantiation.active_record;dur=0.01,
+        process_action.action_controller;dur=1.28
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"56282","type":"vendor","attributes":{"name":"Bookish
+        Bazaar","description":"A vibrant and colorful stall offering a diverse selection
+        of books from around the world, as well as handmade bookmarks and reading
+        accessories.","contact_name":"Kanesha Rippin","contact_phone":"1-223-658-3770","credit_accepted":true}}}'
+  recorded_at: Mon, 11 Sep 2023 14:30:36 GMT
+- request:
+    method: get
+    uri: http://localhost:3000/api/v0/vendors/54988
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.10
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - '0'
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept
+      Etag:
+      - W/"856055f171d76b401477c7876f7ac128"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 37d44875-18dc-48f3-9c73-dc84df414f08
+      X-Runtime:
+      - '0.003939'
+      Server-Timing:
+      - start_processing.action_controller;dur=0.04, sql.active_record;dur=0.44, instantiation.active_record;dur=0.01,
+        process_action.action_controller;dur=1.81
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"54988","type":"vendor","attributes":{"name":"The Freshly
+        Squeezed Company","description":"This vendor offers a variety of freshly squeezed
+        juices.","contact_name":"Miki Gorczany","contact_phone":"227-606-6114","credit_accepted":false}}}'
+  recorded_at: Mon, 11 Sep 2023 14:30:36 GMT
+- request:
+    method: get
+    uri: http://localhost:3000/api/v0/vendors/54876
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.10
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - '0'
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept
+      Etag:
+      - W/"790c270e431011114824774ac2ee496a"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 596adc3d-6010-4f7b-a958-9e0993b105e0
+      X-Runtime:
+      - '0.002640'
+      Server-Timing:
+      - start_processing.action_controller;dur=0.04, sql.active_record;dur=0.37, instantiation.active_record;dur=0.01,
+        process_action.action_controller;dur=0.65
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"54876","type":"vendor","attributes":{"name":"The Sourdough
+        Queen","description":"This vendor bakes a variety of artisanal breads using
+        sourdough starter, from crusty baguettes to hearty whole wheat loaves.","contact_name":"Kasi
+        Greenholt","contact_phone":"(172) 129-4294","credit_accepted":true}}}'
+  recorded_at: Mon, 11 Sep 2023 14:30:36 GMT
+- request:
+    method: get
+    uri: http://localhost:3000/api/v0/vendors/56162
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.10
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - '0'
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept
+      Etag:
+      - W/"e9fbb109873cf04b6760969d2042f5bf"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 97cc07f9-5d2c-4384-a8dc-bacd98782d9d
+      X-Runtime:
+      - '0.002633'
+      Server-Timing:
+      - start_processing.action_controller;dur=0.04, sql.active_record;dur=0.36, instantiation.active_record;dur=0.01,
+        process_action.action_controller;dur=0.64
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"56162","type":"vendor","attributes":{"name":"Colorful
+        Comforts","description":"Colorful and cozy clothing and accessories.","contact_name":"Farrah
+        Crist","contact_phone":"1-321-896-0792","credit_accepted":false}}}'
+  recorded_at: Mon, 11 Sep 2023 14:30:36 GMT
+recorded_with: VCR 6.2.0

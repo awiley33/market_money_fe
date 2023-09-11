@@ -3,7 +3,15 @@ class MarketsController < ApplicationController
     @markets = MarketsFacade.new.all_markets
   end
 
+  def show
+    @market = MarketsFacade.new.one_market(market_params[:id])
+    vendor_ids = @market.vendors_at_market
+    @vendors = MarketsFacade.new.vendors(vendor_ids)
+  end
+
 
   private
-  params.permit(:name, :street, :city, :county, :state, :zip, :lat, :lon, :vendor_count)
+  def market_params
+    params.permit(:id, :name, :street, :city, :county, :state, :zip, :lat, :lon, :vendor_count, :vendors)
+  end
 end
